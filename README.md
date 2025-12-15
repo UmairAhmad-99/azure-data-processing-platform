@@ -35,10 +35,10 @@ The goal of this project is to demonstrate **real-world Azure experience** for a
 
 ### Backend
 
-* **ASP.NET Core Web API (.NET 7/8)**
+* **ASP.NET Core Web API (.NET 8/10)**
 * Clean Architecture principles
 * Background Services for batch processing
-* IMemoryCache for API-level caching
+* IMemoryCache or Redis for API-level caching
 
 ### Azure Services
 
@@ -121,7 +121,7 @@ The goal of this project is to demonstrate **real-world Azure experience** for a
 
 ### Prerequisites
 
-* .NET SDK 7 or later
+* .NET SDK 8 or later
 * SQL Server (local)
 * Azure Storage Emulator or Azurite
 
